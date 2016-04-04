@@ -63,7 +63,6 @@ function [U, out] = ftvcs_al_TVL2_3D(A,b,p,q,r,opts)
 % 
 % Numerical tests illustrate that this solver requirs large beta.
 %
-
 global D Dt
 
 [D, Dt] = defDDt3D;

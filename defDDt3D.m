@@ -1,5 +1,8 @@
 function [D,Dt] = defDDt3D
-
+%
+% This 3D version modified by: Dongjin Kwon
+% Mar. 29, 2016
+%
 D = @(U) ForwardD(U);
 Dt = @(X,Y,Z) Dive(X,Y,Z);
 
@@ -19,3 +22,4 @@ DtXYZ =         cat(1, X(end,:,:) - X(1,:,:), -diff(X,1,1));
 DtXYZ = DtXYZ + cat(2, Y(:,end,:) - Y(:,1,:), -diff(Y,1,2));
 DtXYZ = DtXYZ + cat(3, Z(:,:,end) - Z(:,:,1), -diff(Z,1,3));
 DtXYZ = DtXYZ(:);
+
