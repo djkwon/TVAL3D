@@ -43,16 +43,3 @@ Firstly, addpath both of TVAL3 and TVAL3D. TVAL3D is called in following ways:
 Notice*:   Users should be aware that all fields of opts are assigned by default 
 	   values, which are chosen based on authors' research or experience. 
 	   However, at least one field of opts (any one) must be assigned by users.
-
-
-Copyright Notice
-====================
-
-TVAL3D is free software, and you can redistribute it and/or modify it under the
-terms of the GNU General Public License as published by the Free Software Foundation.
-
-This program is distributed in the hope that it will be useful, but WITHOUT ANY
-WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A 
-PARTICULAR PURPOSE.  See the GNU General Public License for more details at
-<http://www.gnu.org/licenses/>. 
-
